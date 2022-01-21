@@ -1,3 +1,120 @@
 body {
-    background-color: lightblue;
+    background-color: #FDF4DC;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+.homeHeader {
+    text-align: center;
+}
+
+.miniBio {
+    text-align: center;
+}
+
+.navMain { 
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navMain li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: none;
+  }  
+
+.navSocial {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navSocial li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px;
+  text-decoration: none;
+}
+  
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+    color: gray;
+}
+
+.fa-linkedin {
+  color: black;
+}
+
+.fa-linkedin:hover {
+  color: #0e76a8;
+}
+
+.fa-twitter {
+  color: black;
+}
+
+.fa-twitter:hover {
+  color: #00acee;
+}
+
+.fa-github {
+  color: black;
+}
+
+.fa-github:hover {
+  color: #171515;
+}
+
+.navMainHeaderPages {
+  float: right;
+  list-style-type: none;
+  text-align: center;
+  vertical-align: bottom;
+  margin: 0;
+  padding: 0;
+}
+
+.navMainHeaderPages li {
+  display: inline-block;
+  font-size: medium;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.navMainHeaderHome {
+  float: left;
+  text-align: left;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+}
+
+.navMainHeaderHome li {
+  display: inline-block;
+  font-size: medium;
+  font-weight: bold;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.headerNav {
+  padding-left: 15%;
+  padding-right: 15%;
+  border-bottom: 1.3px solid;
+  height: 50px;
+}
+
+.bio {
+  text-align: center;
+}
+
+.footerNav {
+  border-top: 1.3px solid;
 }
